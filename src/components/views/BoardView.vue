@@ -230,7 +230,7 @@ function onMoveTask(e: any, newStatus: TaskStatus) {
   padding: 0;
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh - 120px);
+  max-height: calc(75vh - 120px);
   box-shadow: 0 2px 12px rgba(90, 74, 58, 0.15);
   position: relative;
   border: 1px solid rgba(196, 164, 132, 0.2);
