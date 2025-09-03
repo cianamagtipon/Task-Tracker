@@ -315,13 +315,13 @@ function onMoveTask(e: any, newStatus: TaskStatus) {
 
 .task-list-empty {
   min-height: 100px;
-  background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     45deg,
     transparent,
     transparent 10px,
     rgba(196, 164, 132, 0.05) 10px,
     rgba(196, 164, 132, 0.05) 20px
-  );
+  ); */
   border-radius: 8px;
   margin: 8px 12px;
   display: flex;
