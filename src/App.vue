@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f5f5f5; /* background outside the app */
+  background: #f5f5f5;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -30,7 +30,7 @@ body {
 .app-container {
   width: 95vw;
   max-height: 95vh;
-  background: #fff; /* inner app background */
+  background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
