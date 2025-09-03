@@ -46,10 +46,10 @@ function goBoard() {
           <el-icon><User /></el-icon>
           Hi, {{ auth.me?.username }}
         </div>
-        <el-button type="success" @click="goBoard" plain>
+        <!-- <el-button type="success" @click="goBoard" plain>
           <el-icon><Collection /></el-icon>
           My Board
-        </el-button>
+        </el-button> -->
         <el-button type="danger" @click="logout" plain>
           <el-icon><SwitchButton /></el-icon>
           Logout
