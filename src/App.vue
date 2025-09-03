@@ -1,11 +1,38 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NavBar from './components/NavBar.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="app-container">
+    <NavBar />
+    <router-view />
+  </div>
 </template>
 
-<style scoped></style>
+<style>
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5; /* background outside the app */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.app-container {
+  width: 95vw;
+  max-height: 95vh;
+  background: #fff; /* inner app background */
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+</style>
